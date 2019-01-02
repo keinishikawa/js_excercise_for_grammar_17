@@ -29,5 +29,5 @@
 
 
 - Web白熱教室
-  - [【JavaScript】クラスの継承 ~extendsを使う~](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/how-to-inherit-classes-in-js/)
-  - [【JavaScript】superを使う ~クラス継承の1機能~](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/how-to-use-the-super-of-classes-in-js/)
+  - [【JavaScript】クラスの継承 【extendsを使う】](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/how-to-inherit-classes-in-js/)
+  - [【JavaScript】superを使う 【クラス継承の1機能】](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/how-to-use-the-super-of-classes-in-js/)
