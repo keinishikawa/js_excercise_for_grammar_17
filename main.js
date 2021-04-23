@@ -26,5 +26,34 @@
 //       - ②. ①の実行後に親クラスのspeakメソッドを実行して「...(無言)」を出力する
 
 
+
+class Animal{
+    constructor(name){
+        this._name = name;
+    }
+
+    speak(){
+        console.log("...（無言）");
+    }
+
+
+}
+
+class Person extends Animal{
+    constructor(name){
+        super(name);
+    }
+
+    speak(){
+        console.log("こんにちは、",this._name,"です。");
+        super.speak();
+    }
+}
+
+
+
 // 課題2: Personクラスのインスタンスを実行して、speakメソッドを実行して、課題1のPersonクラスのspeakメソッドの①と②が出力されることを確認する
 
+const person = new Person("nishikawa");
+
+person.speak();
